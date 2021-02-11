@@ -1,4 +1,4 @@
-/* Чтобы все  находилось в пределах своео контейнера */
+
 *,
 *:before,
 *:after {
@@ -6,16 +6,16 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* Для того чтобы картинка не выходила за свои грани */
+
 img {
   max-width: 100%;
   height: auto;
 }
-/* Для курсора:при наведении будет появляться указательный палец. */
+
 input[type="submit"] {
   cursor: pointer;
 }
-/* Горизонтальная линия */
+
 hr {
   display: block;
   height: 1px;
@@ -24,17 +24,16 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-/* Для того ,чтобы окно коментария либо СМС меняли свой размер только по вертикали,так как в ином случаем может поломаться разметка */
+
 textarea {
   resize: vertical;
 }
-/* Помогает бороться для борьбы со схлопыванием и очистить потоки обтикания. */
 clearfix:before,
 .clearfix:after {
   content: " ";
-  /* 1 */
+  
   display: table;
-  /* 2 */
+
 }
 .clearfix:after {
   clear: both;
